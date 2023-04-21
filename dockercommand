@@ -1,0 +1,8 @@
+docker build -t videocallapp .
+docker images
+docker run -it -d -p 3000:3000 devbsai.azurecr.io/wb_tool_backend:wbt-backend
+docker push devbsai.azurecr.io/wb_tool_backend:wbt-backend
+docker run -it -d -p 3000:3000 file_processsing:latest
+docker exec -it "name" sh
+
+ver 1.0.0
